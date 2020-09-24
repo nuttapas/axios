@@ -1,23 +1,26 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <img alt="Vue logo" src="https://pbs.twimg.com/media/EicU5xaU0AAzWlh.png" width=300px;>
+    <Overview />
+    <Series />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import Overview from './components/Overview'
+import Series from './components/Series'
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Overview,
+    Series,
   }
 }
 </script>
 
 <style>
 #app {
+
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
